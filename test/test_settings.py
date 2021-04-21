@@ -40,4 +40,4 @@ import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from lib.settings_system import the_settings, test_mode, debug_mode
-unittest.main()
+unittest.main(exit=False)
