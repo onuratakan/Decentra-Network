@@ -78,4 +78,4 @@ from wallet.wallet import Wallet_Create, get_saved_wallet, Wallet_Import, Wallet
 from func.node_connection import ndstart, ndconnect, ndstop
 from node.node import get_connected_node, connected_node_delete
 from node.unl import save_new_unl_node, get_unl_nodes, get_as_node_type, unl_node_delete
-unittest.main()
+unittest.main(exit=False)
