@@ -31,7 +31,7 @@ jobs:
 
 
       - name: Zip
-        run: zip gource_${{ github.event.release.tag_name }} ./gource/gource.mp4
+        run: zip gource_${{ github.event.release.tag_name }}.zip ./gource/gource.mp4
       - uses: AButler/upload-release-assets@v2.0
         if: github.event_name == 'release'
         with:
