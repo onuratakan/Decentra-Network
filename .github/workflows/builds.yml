@@ -63,7 +63,7 @@ jobs:
     - name: Zip
       run: |
         cd dist
-        zip -r cli_linux_${{ github.event.release.tag_name }} Decentra-Network-CLI/
+        zip -r cli_linux_${{ github.event.release.tag_name }}.zip Decentra-Network-CLI/
     
     - uses: actions/upload-artifact@v2
       with:
