@@ -27,7 +27,6 @@ jobs:
           gource_resolution: '720p'
           gource_fps: 60
           gource_font_size: 40
-          avatars_auto_fetch: true
 
 
       - name: Zip
